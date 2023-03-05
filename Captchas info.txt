@@ -1,0 +1,34 @@
+1. Captcha for Laravel 5/6/7, https://github.com/mewebstudio/captcha -> anti-segmentation: random lines of different colors and random background details such as background fog
+									anti-recognition: random letter fonts, random captcha recognition methods such as addition of 2 numbers or text copying
+
+2. Gregwar captcha, https://github.com/Gregwar/Captcha -> anti-segmentation: random lines, and various background colors
+							  anti-recognition: character distortion, different fonts
+
+3. trekjs captcha, https://github.com/trekjs/captcha -> anti-segmentation: noised text, random lines 
+							anti-recognition: character distortion
+
+4. svg-captcha, https://github.com/produck/svg-captcha (easy captcha) -> anti-segmentation: almost no methods, few lines and text contains the same color as the background
+									 anti-recognition: random captcha recognition metheds such as addition of 2 numbers or text copying
+
+5. go-captcha, https://github.com/wenlng/go-captcha (hardest captcha to break imo) -> anti-segmentation (random lines, of different colors, dots, noise, then another image with different background and same symbols)
+										      anti-recognition: hard character detection even for the human eye, in-order character selection 
+
+6. steambap captcha, https://github.com/steambap/captcha -> (coded in go-language) anti-segmentation: random lines, noise , curvature of the line is diferent
+										   anti-recognition: different fonts, and character distortion
+
+?? 7. shashank captcha-canvas, https://github.com/Shashank3736/captcha-canvas ?? 
+
+8. tarunk04 captcha-generator, https://github.com/tarunk04/Captcha_Generator -> anti-segmentation: multiple random lines over the text
+
+9. samir's captcha-generator, https://github.com/samirdjelal/captcha-rs -> (coded in rust) anti-segmentation: random lines, dots, noise, (note: different levels of captcha enough to crack level 2 and level 10)
+											   anti-recognition: random captcha recognition metheds such as addition of 2 numbers or text copying, character distortion
+
+10. svg-captcha-express, https://github.com/lazarofl/svg-captcha-express
+
+11. lepture captcha, https://github.com/lepture/captcha -> anti-segmentation: random dots and lines 
+
+
+Segmentation - Thresholding Segmentation, Edge-Based Segmentation, Region-based Segmentation
+Recognition - edge detection, pattern detection, image classification, and feature matching.
+
+anti-segmentation methods : noise
