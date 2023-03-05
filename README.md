@@ -1,2 +1,2 @@
 # Captcha-Breaker
-Neural Network that breaks captchas
+A Neural Network that breaks captchas
